@@ -56,7 +56,7 @@ The tool output will now be:
     UDP listener found, starting TCP listener
     Got a connection from ('127.0.0.1', 53269)
 
-If we stop the netcat listen we will see
+If we stop the netcat listener we will see
 
     $ ./udp_healther.py 6000 5000
     Starting UDP Healther. Looking for udp port 6000 and running tcp on port 5000
